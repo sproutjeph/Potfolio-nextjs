@@ -9,7 +9,7 @@ export default function About() {
   const { ref } = useSectionInView("About");
 
   return (
-    <motion.section
+   <motion.section
       ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
@@ -21,27 +21,31 @@ export default function About() {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Electrical Engineering</span>, I decided
-        to pursue my passion for programming. I bougth Udemy courses and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        to pursue my passion for programming. I invested in Udemy courses and
+        honed my skills in{" "}
+        <span className="font-medium">
+          full-stack web and Mobile development
+        </span>
+        . <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          TypeScript, Javascript, React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with Kotlin and Jetpack compose. I am always
+        looking to learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching
-        coding tutorials on Youtube , playing soccer, and listening to music. I
-        also enjoy <span className="font-medium">learning new things</span>. I
-        am currently learning <span className="font-medium">German</span>. I'm
-        also learning Android Development with Jetpack Compose.
+        <span className="italic">Beyond coding</span>, I find pleasure in
+        watching programming tutorials on YouTube, indulging in soccer, and
+        immersing myself in music. The joy of learning continues to drive me,{" "}
+        with my current endeavors being focused on mastering the{" "}
+        <span className="font-medium">German language </span>
+        and delving into Android Development with Jetpack Compose.
       </p>
     </motion.section>
   );

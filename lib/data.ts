@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuBriefcase } from "react-icons/lu";
 import stoveOrderingImg from "@/public/stove-ordering.png";
 import examGptImg from "@/public/exam-gpt.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import nasaProjectImg from "@/public/nasa-project.jpg";
 
 export const links = [
   {
@@ -84,11 +84,11 @@ export const projectsData = [
     imageUrl: examGptImg,
   },
   {
-    title: "Word Analytics",
+    title: "Nasa Mission API",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Worked extensively with spacex api, useing CSV parsser Nodejs MongoDB and Expressjs ",
+    tags: ["React", "Epressjs", "MongoDb", "Tailwindcss", "Nodejs"],
+    imageUrl: nasaProjectImg,
   },
 ] as const;
 

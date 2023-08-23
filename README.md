@@ -1,8 +1,8 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+[![Watch tutorial here](https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/367751398_6975375262495058_2845649829171287268_n.jpg?stp=cp6_dst-jpg_p552x414&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFN42kYwK_EwhHN5-E0wnCZiwPsRg5pdaiLA-xGDml1qGEf2FYKKxPKOkxCD1buEi_mL26nJSBZJtWpC5gpYeqQ&_nc_ohc=WmaiW6RjhxcAX_MPyiu&_nc_oc=AQnP5cfQ_mgEC_tJw7N1wJOkHGCgB5kiALzt3kt6M2TCIlGNxthlrLCpChN2ZimjzGE&_nc_zt=23&_nc_ht=scontent.flos3-2.fna&oh=00_AfBBzWBJ4Gmub-vdTczGUea-pVCXM8o3MSxrvH0wxQeNsg&oe=64EB1FAB)](https://youtu.be/sUKptmUVIBM)
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+# [Deployed Site](https://youtu.be/sUKptmUVIBM)
 
-## What you will learn
+## Tech I used
 
 - Latest Next.js 13 features
 - Next.js App Router
@@ -17,14 +17,3 @@
 - Fresh, modern UI design
 - Light & Dark mode
 - Responsive website
-
-## Important
-
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://www.udemy.com/course/professional-javascript-course/?referralCode=0C1D5752923168BC87C2) and [Professional CSS](https://www.udemy.com/course/professional-css/?referralCode=4C3C08E82629E6B15752) courses.
-
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
-
-## Setup
-
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email

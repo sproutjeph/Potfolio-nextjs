@@ -1,11 +1,11 @@
 "use client";
 
-import React from "react";
 import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import React from "react";
 
-export default function About() {
+const About = () => {
   const { ref } = useSectionInView("About");
 
   return (
@@ -49,4 +49,6 @@ export default function About() {
       </p>
     </motion.section>
   );
-}
+};
+
+export default About;

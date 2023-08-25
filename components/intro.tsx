@@ -1,16 +1,16 @@
 "use client";
 
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { HiDownload } from "react-icons/hi";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-export default function Intro() {
+const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
@@ -116,4 +116,6 @@ export default function Intro() {
       </motion.div>
     </section>
   );
-}
+};
+
+export default Intro;

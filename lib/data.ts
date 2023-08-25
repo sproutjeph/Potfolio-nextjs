@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuBriefcase } from "react-icons/lu";
 import stoveOrderingImg from "@/public/stove-ordering.png";
 import examGptImg from "@/public/exam-gpt.png";
-import nasaProjectImg from "@/public/nasa-project.jpg";
+import nasaProjectImg from "@/public/nasa-project.png";
 
 export const links = [
   {
@@ -69,7 +69,7 @@ export const projectsData = [
   {
     title: "Exam-GPT",
     description:
-      "EXAM-GPT  is a cutting-edge mobile application designed to assist Nigerian students preparing for the Joint Admissions and Matriculation Board (JAMB) exam, WAEC and NECO. Utilizing the power of artificial intelligence, the app provides accurate and reliable answers to JAMB, NECO and WAEC past questions and predicts future questions based on past exam patterns",
+      "EXAM-GPT  is a cutting-edge mobile application designed to assist Nigerian students preparing for O-Level exams.",
     tags: [
       "React",
       "TypeScript",

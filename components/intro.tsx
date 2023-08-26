@@ -1,6 +1,6 @@
 "use client";
 
-import { useActiveSectionContext } from "@/context/ActiveSectionContext";
+import { useActiveSectionContext } from "@/context/active-section-context";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";

@@ -1,6 +1,6 @@
 "use client";
 
-import { useTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/theme-context";
 import { BsMoon, BsSun } from "react-icons/bs";
 import React from "react";
 

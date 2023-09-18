@@ -65,11 +65,13 @@ export const projectsData = [
       "Typescript",
     ],
     imageUrl: stoveOrderingImg,
+    githubUrl: "https://github.com/sproutjeph/web-ordering",
+    liveUrl: "https://olo.stovepos.com/?venueId=37",
   },
   {
     title: "Exam-GPT",
     description:
-      "EXAM-GPT  is a cutting-edge mobile application designed to assist Nigerian students preparing for O-Level exams.",
+      "EXAM-GPT  is a cutting-edge web application designed to assist Nigerian students preparing for O-Level exams.",
     tags: [
       "React",
       "TypeScript",
@@ -82,6 +84,8 @@ export const projectsData = [
       "React-Query",
     ],
     imageUrl: examGptImg,
+    githubUrl: "https://github.com/sproutjeph/exam-gpt-client",
+    liveUrl: "https://exam-gpt.vercel.app/",
   },
   {
     title: "Nasa Mission API",
@@ -89,6 +93,8 @@ export const projectsData = [
       "Worked extensively with spacex api, useing CSV parsser Nodejs MongoDB and Expressjs ",
     tags: ["React", "Epressjs", "MongoDb", "Tailwindcss", "Nodejs"],
     imageUrl: nasaProjectImg,
+    githubUrl: "https://github.com/jephthah/stove-ordering",
+    liveUrl: "https://stove-ordering.vercel.app/",
   },
 ] as const;
 

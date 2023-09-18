@@ -4,10 +4,18 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { projectsData } from "@/lib/data";
 import { useRef } from "react";
 import Image from "next/image";
+import { FaGithub, FaLink } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
-const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
+const Project = ({
+  title,
+  description,
+  tags,
+  imageUrl,
+  liveUrl,
+  githubUrl,
+}: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -51,6 +59,23 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
           width={500}
           className="absolute hidden sm:block top-0 -right-40 group-even:right-[initial] group-even:-left-40 object-contain max-w-full max-h-full"
         />
+
+        <div className="absolute flex gap-4 transform right-1/2 top-2 translate-x-[50%]">
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href={liveUrl}
+            target="_blank"
+          >
+            <FaLink />
+          </a>
+          <a
+            className="bg-white p-4  hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack  text-black"
+            href={githubUrl}
+            target="_blank"
+          >
+            <FaGithub />
+          </a>
+        </div>
       </section>
     </motion.div>
   );

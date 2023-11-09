@@ -29,9 +29,11 @@ const Contact = () => {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <h2 className="mb-8 text-3xl font-medium text-center text-white capitalize">
+        Contact me
+      </h2>
 
-      <p className="-mt-6 text-gray-700 dark:text-white/80">
+      <p className="-mt-6 text-gray-400 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:jephthah.mbah@outlook.com">
           jephthah.mbah@outlook.com

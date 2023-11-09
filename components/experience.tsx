@@ -18,7 +18,7 @@ const Experience = () => {
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <div>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -52,7 +52,7 @@ const Experience = () => {
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
-      </VerticalTimeline>
+      </div>
     </section>
   );
 };

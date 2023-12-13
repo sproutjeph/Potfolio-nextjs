@@ -104,6 +104,7 @@ export const projectsData = [
     tags: ["React", "Epressjs", "MongoDb", "Tailwindcss", "Nodejs"],
     imageUrl: nasaProjectImg,
     githubUrl: "https://github.com/jephthah/stove-ordering",
+    liveUrl: "https://github.com/jephthah/stove-ordering",
   },
 ] as const;
 

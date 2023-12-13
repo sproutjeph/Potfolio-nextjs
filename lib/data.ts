@@ -4,6 +4,7 @@ import { LuBriefcase } from "react-icons/lu";
 import stoveOrderingImg from "@/public/stove-ordering.png";
 import examGptImg from "@/public/exam-gpt.png";
 import nasaProjectImg from "@/public/nasa-project.png";
+import nestSassImg from "@/public/nest-sass.png";
 
 export const links = [
   {
@@ -53,6 +54,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Next Sass Template",
+    description:
+      "Your next startup project based on Nextjs-14, Tailwindcss, NextUI and Supabase. Easy customization Helps you build apps faster and better.",
+    tags: ["Nextjs 14", "React", "Tailwindcss", "Zustand", "NextUI"],
+    imageUrl: nestSassImg,
+    githubUrl: "https://github.com/sproutjeph/next-sass-template",
+    liveUrl: "https://next-sass-template.vercel.app/",
+  },
+  {
     title: "Stove-ordering",
     description:
       "I worked as a full-stack developer on this startup project for 1 year. Users can order and pay for food items.",
@@ -94,7 +104,6 @@ export const projectsData = [
     tags: ["React", "Epressjs", "MongoDb", "Tailwindcss", "Nodejs"],
     imageUrl: nasaProjectImg,
     githubUrl: "https://github.com/jephthah/stove-ordering",
-    liveUrl: "https://stove-ordering.vercel.app/",
   },
 ] as const;
 

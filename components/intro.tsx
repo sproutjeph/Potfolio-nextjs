@@ -63,7 +63,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Jephthah.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">frontend developer</span> with{" "}
         <span className="font-bold">3 years</span> of experience. I find immense
         joy in crafting websites and Mobile applications. My focus is{" "}
         <span className="underline">MERN STACK and (Next.js)</span>
